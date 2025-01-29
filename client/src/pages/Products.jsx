@@ -1,3 +1,4 @@
+import ReviewCard from "@/_components/ReviewCard";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Check, Minus, Plus } from "lucide-react";
@@ -198,6 +199,10 @@ const Products = ({ initialStock = 10 }) => {
                         </div>
                     )}
                 </div>
+                {/* REVIEW COMPONENTS */}
+            </div>
+            <div className="flex items-start justify-start border">
+                <ReviewCard />
             </div>
         </div>
     );
